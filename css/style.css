@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+img {
+    
+    margin: 10px 0px 30px 10px;
+    width: 640px;
+    height: 420px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.418);
+}
+.a {
+    width: 640px;
+    height: 400px;
+}
+.ver {
+    width: 540px;
+    height: 640px;
+}
+body {
+    background-color: rgba(145, 150, 155, 0.61);
+}
+header {
+    background-color: rgb(3, 107, 121);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    
+}
+.logo {
+   color: white;
+   margin-right: auto;
+   padding: 0px 60px;
+}
+.logo span {
+    color: rgb(96, 242, 247);
+}
+
+.links {
+    color: white;
+    display: flex;
+    
+}
+.links li {
+    display: inline-flex; 
+    
+    }
+.links li a {
+    color: rgba(255, 255, 255, 0.89);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    
+}
+.links li a:hover {
+    color: rgba(0, 255, 255, 0.76);
+    background-color: rgba(0, 0, 0, 0.671);
+    border: none;
+    transition: ease 300ms;
+}
+
+main {
+    justify-content: center;
+    margin-left: 25%;
+    padding: 100px 0px;
+    display: block;
+}
+.intro, .details, .main {
+    display: block;
+}
+.main h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+     
+}
+.day {
+    padding-top: 60px;
+}
+section {
+    width: 600px;
+    display: block;
+    
+}
+/**
+address {
+    height: 800px;
+}
+.map { 
+position: fixed;
+}
+**/
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 20px 0px 0px 0px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 0px, 0px, 10px, 0px;
+
+}
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+p {
+    line-height: 1.3;
+    word-spacing: 0.1em;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 17px;
+    margin: 20px 0px;
+}
+
+a, strong {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-weight: 600;
+}
+strong {
+    text-transform: capitalize;
+}
+a {
+    text-transform: uppercase;
+}
+a:hover {
+    color: rgba(76, 87, 87, 0.808);
+}
+
+
+.author {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: none;
+    
+}
+.create {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h5 {
+    text-indent: 5px;
+    text-transform: capitalize;
+}
+footer {
+    background-color: rgba(22, 22, 22, 0.911);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;    
+}
+footer div h2 {
+    color: rgb(5, 180, 180);
+}
+.about {
+    width: 240px;
+}
+footer h4, footer p {
+    color: rgb(195, 204, 212);
+    margin-top: 20px;
+}
+footer strong {
+    color: rgb(143, 143, 143);
+
+}
+.contact {
+    width: 400px;
+}
+.contact a {
+    text-transform: capitalize;
+   
+    color: grey;
+}
+ .link a {
+    text-transform: lowercase;;
+ }
+ .link a:hover {
+    color: rgb(58, 125, 158);
+    transition: ease 400ms;
+ }
+/**
+.search-box {
+    background: #2a3b33f8;
+    display: inline-flex;
+    
+    padding: 20px 10px;
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+   
+}
+.search-box:hover > .search-txt {
+width: 60%;
+padding: 0px 10px;
+
+} 
+.search-box:hover > .search-btn {
+    color: rgb(235, 38, 23);
+    background: #2a3b33f8;
+} 
+.search-txt {
+    border: none;
+    width: 80%;
+    outline: none;
+    background: none;
+    padding: 0;
+    width: 0px;
+    color: rgba(0, 255, 255, 0.904);
+    line-height: 20px;
+    font-size: 14px;
+    float: left;
+    transition: 0.4s;
+}
+.search-btn {
+    margin-left: auto;
+    float: right;
+    border: none;
+    padding: 0px 2px;
+    display: flex;
+    color: rgb(44, 241, 241);
+    justify-content: center;
+    align-items: center;
+}
+  **/  
+/*
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: rgba(33, 214, 214, 0.808);
+    padding: 5px 25px;
+    border: 1px solid turquoise;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+button:hover {
+    background-color: rgba(28, 146, 146, 0.897);
+    transition: ease 400ms;
+}
+*/
